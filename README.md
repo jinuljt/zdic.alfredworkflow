@@ -7,4 +7,4 @@
 
 
 
-可直接下载 [zdic.alfredworkflow](/jinuljt/zdic.alfredworkflow/raw/master/zdic.alfredworkflow) 安装使用。
+可直接下载 [zdic.alfredworkflow](https://github.com/jinuljt/zdic.alfredworkflow/raw/master/zdic.alfredworkflow) 安装使用。
