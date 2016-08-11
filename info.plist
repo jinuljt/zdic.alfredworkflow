@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.liujuntao.zdic</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>3D8F8165-E95F-4539-8BCF-045CFACD9F92</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>198530AB-37B3-42B8-9C4B-5E8B7FBCA4FC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Liu Juntao</string>
+	<key>description</key>
+	<string>搜索汉典</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>zdic</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>198530AB-37B3-42B8-9C4B-5E8B7FBCA4FC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>z</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>query from zdic.net...</string>
+				<key>script</key>
+				<string>./zdic.py {query}</string>
+				<key>subtext</key>
+				<string>example:   z 饕</string>
+				<key>title</key>
+				<string>Query Chinese from zdic.net</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>3D8F8165-E95F-4539-8BCF-045CFACD9F92</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>juntao’s alfred workflow</string>
+	<key>uidata</key>
+	<dict>
+		<key>198530AB-37B3-42B8-9C4B-5E8B7FBCA4FC</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>3D8F8165-E95F-4539-8BCF-045CFACD9F92</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>liujuntao.com</string>
+</dict>
+</plist>
